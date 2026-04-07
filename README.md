@@ -1,27 +1,26 @@
-# Console App: Food Trailer Crew
-
-This is a simple C# console application that involoves the assignment of staff roles for a food trailer operation.
+# Console App - Food Trailer Crew
 
 ## Overview
-This program demonstrates  the following basic C# concepts:
-- Arrays
-- Loops (foreach)
-- Console output formatting
-
-The application displays a list of food trailer crew roles as they are "clocked in" for a shift.
+This C# console application demonstrates and encompass the core programming concepts by simulating a food trailer crew assignment system.
 
 ## Features
-- Stores crew roles in an array
-- Iterates through roles using a foreach loop
-- Outputs formatted messages to the console
+- Initializes and stores crew roles in an array
+- Iterates through the array using a `for` loop
+- Uses a `switch` statement to assign responsibilities to each role
+- Uses an `if` statement to categorize workers as Kitchen Staff or Support Staff
+- Displays a summary of staff categories
+
+## Roles Included
+- Head Chef
+- Sous Chef
+- Attendant
+- Cashier
+- Driver
 
 ## Technologies Used
 - C#
-- .NET
+- .NET Console Application
 
 ## How to Run
-Listed below is the step needed to run the program:
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/tabner0320/Console-app-food-trailer-crew.git
+dotnet run
