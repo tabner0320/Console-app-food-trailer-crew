@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Console-app-food-trailer-crew")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b99ddcca1b2cbc6a7af36520767abc09c387fa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Console-app-food-trailer-crew")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Console-app-food-trailer-crew")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
