@@ -1,4 +1,4 @@
-﻿string[] crewRoles = { "Head Chef", "Sous Chef", "Cashier", "Attendant", "Driver" };
+string[] crewRoles = { "Head Chef", "Sous Chef", "Cashier", "Attendant", "Driver" };
 int[] hoursWorked = { 42, 38, 29, 33, 45 };
 decimal[] hourlyRates = { 18.50m, 16.25m, 13.75m, 13.50m, 15.00m };
 
