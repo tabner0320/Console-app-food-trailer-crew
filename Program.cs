@@ -63,7 +63,6 @@ foreach (string role in crewRoles)
 
 Console.WriteLine("\n--- Crew Count Input ---");
 
-// Accept user input (string)
 Console.Write("Enter number of crew members on shift: ");
 string userInput = Console.ReadLine();
 
