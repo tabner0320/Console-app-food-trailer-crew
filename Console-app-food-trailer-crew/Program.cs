@@ -1,5 +1,4 @@
-﻿string[] crewRoles = { "Head Chef", "Sous Chef", "Cashier", "Attendant", "Driver" };
-
+string[] crewRoles = { "Head Chef", "Sous Chef", "Cashier", "Attendant", "Driver" };
 int[] hoursWorked = { 42, 38, 29, 33, 45 };
 decimal[] hourlyRates = { 18.50m, 16.25m, 13.75m, 13.50m, 15.00m };
 
@@ -59,32 +58,6 @@ foreach (string role in crewRoles)
             Console.WriteLine($"{role}: General support role.");
             break;
     }
-}
-
-Console.WriteLine("\n--- Crew Count Input ---");
-
-// Accept user input (string)
-Console.Write("Enter number of crew members on shift: ");
-string userInput = Console.ReadLine();
-
-try
-{
-    // Try to parse input to integer
-    int crewCount = int.Parse(userInput);
-
-    Console.WriteLine($"Total crew members on shift: {crewCount}");
-}
-catch (FormatException)
-{
-    Console.WriteLine("Invalid input. Please enter a valid number.");
-}
-catch (OverflowException)
-{
-    Console.WriteLine("Number is too large or too small.");
-}
-catch (Exception)
-{
-    Console.WriteLine("Something went wrong.");
 }
 
 decimal CalculateWeeklyPay(int hours, decimal rate)
