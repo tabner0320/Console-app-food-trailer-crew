@@ -1,4 +1,11 @@
+using System;
+
+Console.WriteLine("=== Crew Member Class Demo ===");
+
+CrewMember member1 = new CrewMember("Theo", "Head Chef", 42, 18.50m);
 CrewMember member2 = new CrewMember("Lisa", "Cashier", 35, 13.75m);
+
+member1.DisplayInfo();
 member2.DisplayInfo();
 
 string[] crewRoles = { "Head Chef", "Sous Chef", "Cashier", "Attendant", "Driver" };
