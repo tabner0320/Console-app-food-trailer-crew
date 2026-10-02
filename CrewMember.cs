@@ -1,4 +1,4 @@
-using System;
+namespace FoodTrailerCrew;
 
 public class CrewMember
 {
@@ -19,21 +19,19 @@ public class CrewMember
     {
         if (HoursWorked > 40)
         {
-            int overtime = HoursWorked - 40;
+            int overtimeHours = HoursWorked - 40;
             decimal regularPay = 40 * HourlyRate;
-            decimal overtimePay = overtime * (HourlyRate * 1.5m);
+            decimal overtimePay = overtimeHours * HourlyRate * 1.5m;
             return regularPay + overtimePay;
         }
 
         return HoursWorked * HourlyRate;
     }
 
-    public void DisplayInfo()
+    public string GetShiftStatus()
     {
-        Console.WriteLine($"Name: {Name}");
-        Console.WriteLine($"Role: {Role}");
-        Console.WriteLine($"Hours: {HoursWorked}");
-        Console.WriteLine($"Pay: ${CalculatePay():F2}");
-        Console.WriteLine("------------------------");
+        if (HoursWorked > 40) return "Overtime Shift";
+        if (HoursWorked >= 30) return "Standard Shift";
+        return "Part-Time Shift";
     }
 }
