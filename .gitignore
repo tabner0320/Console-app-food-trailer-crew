@@ -1,5 +1,17 @@
+# Build output
 bin/
 obj/
+**/bin/
+**/obj/
+
+# Visual Studio
 .vs/
 *.user
 *.suo
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
