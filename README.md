@@ -1,5 +1,7 @@
 # Food Trailer Crew Console App
 
+[![.NET CI](https://github.com/tabner0320/Console-app-food-trailer-crew/actions/workflows/dotnet.yml/badge.svg)](https://github.com/tabner0320/Console-app-food-trailer-crew/actions/workflows/dotnet.yml)
+
 A C#/.NET 10 console application that simulates weekly crew management for a food trailer. The project demonstrates object-oriented programming, payroll and overtime calculations, input validation, separation of concerns, role-based responsibilities, automated testing, and Git/GitHub development workflows.
 
 ## Features
@@ -13,7 +15,7 @@ A C#/.NET 10 console application that simulates weekly crew management for a foo
 - Uses a separate service class for business logic
 - Uses `List<CrewMember>` to manage crew data
 - Includes automated xUnit tests
-- Uses GitHub Actions for continuous integration
+- Uses GitHub Actions for Continuous Integration
 
 ## Technologies Used
 
@@ -159,6 +161,8 @@ The CI workflow automatically:
 
 The workflow runs when changes are pushed to `main` and when pull requests target `main`.
 
+The CI status badge at the top of this README provides a quick visual indication of the current workflow status.
+
 ## Run the Application
 
 ### 1. Clone the repository
@@ -197,7 +201,7 @@ The application continues through the remaining crew members and then prompts th
 
 ## Development Workflow
 
-This project was upgraded using a feature-branch workflow:
+This project was developed and upgraded using a feature-branch workflow:
 
 ```text
 Feature Branch
@@ -208,7 +212,11 @@ Local Build and Testing
       ↓
 Git Commit
       ↓
+Push to GitHub
+      ↓
 GitHub Pull Request
+      ↓
+GitHub Actions CI
       ↓
 Review and Validation
       ↓
